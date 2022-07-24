@@ -7,15 +7,7 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
-
+import { StyleSheet } from 'react-native';
 import { Calculadora } from './src/components';
 
 const App = () => {

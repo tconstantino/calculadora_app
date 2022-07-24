@@ -1,8 +1,7 @@
-import React, {Component } from "react";
-import { View, Text, TextInput, StyleSheet } from "react-native";
+import React from "react";
+import { View, TextInput, StyleSheet } from "react-native";
 
 const Visor = (props) => {
-    console.log('visor props', props.resultado);
     return (
         <View>
             <TextInput 
