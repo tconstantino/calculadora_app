@@ -7,7 +7,8 @@ const Numero = (props) => {
             style={styles.numero}
             placeholder='Digite o valor'
             keyboardType='number-pad'
-            value={props.valor}/>
+            value={props.valor}
+            onChangeText={props.alterarNumero}/>
     )
 }
 

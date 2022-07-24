@@ -6,17 +6,14 @@ import { Picker } from '@react-native-picker/picker';
 class Operacao extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            operacao: null
-        };
     }
     
     render(props) {
         return (
             <Picker
-            selectedValue={this.state.operacao}
             style={styles.operacoes}
-            onValueChange={(valor) => { this.setState({operacao: valor}) }}>
+            selectedValue={this.props.operacao}
+            onValueChange={this.props.selecionarOperacao}>
                 <Picker.Item label='Soma' value='soma' />
                 <Picker.Item label='Subtração' value='subtracao' />
                 <Picker.Item label='Multiplicação' value='multiplicacao' />

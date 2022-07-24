@@ -5,8 +5,8 @@ import Numero from "./components/numero";
 const Entrada = (props) => {
     return (
         <View style={styles.numeros}>
-            <Numero valor={props.numeroUm} />
-            <Numero valor={props.numeroDois} />
+            <Numero valor={props.numeroUm} alterarNumero={props.alterarNumeroUm}/>
+            <Numero valor={props.numeroDois} alterarNumero={props.alterarNumeroDois}/>
         </View>
     );
 };

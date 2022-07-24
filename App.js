@@ -16,18 +16,11 @@ import {
   StatusBar,
 } from 'react-native';
 
-import { Topo, Painel, Resultado } from './src/components';
+import { Calculadora } from './src/components';
 
 const App = () => {
   return (
-    <View>
-      <StatusBar backgroundColor='#2196f3' barStyle='dark-content'/>
-      <SafeAreaView>
-        <Topo />
-        <Resultado />
-        <Painel />
-      </SafeAreaView>
-    </View>
+    <Calculadora />
   );
 };
 

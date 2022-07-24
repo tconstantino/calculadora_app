@@ -4,7 +4,7 @@ import Visor from "./visor";
 
 const Resultado = (props) => {
     return (
-        <Visor />
+        <Visor resultado={props.valor}/>
     );
 };
 
